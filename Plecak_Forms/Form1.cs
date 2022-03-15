@@ -104,12 +104,5 @@ namespace Plecak_Forms
                 }
             }
         }
-
-        private void testlabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-  
-
 }
