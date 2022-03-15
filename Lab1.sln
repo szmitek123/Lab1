@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{B5BB3BD6-ED4E-4185-9975-C2215B9DB42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plecak_Forms", "Plecak_Forms\Plecak_Forms.csproj", "{BB7FFBC9-63AA-49CC-90C7-F8CD6D91766D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5BB3BD6-ED4E-4185-9975-C2215B9DB42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BB3BD6-ED4E-4185-9975-C2215B9DB42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BB3BD6-ED4E-4185-9975-C2215B9DB42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BB3BD6-ED4E-4185-9975-C2215B9DB42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7FFBC9-63AA-49CC-90C7-F8CD6D91766D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7FFBC9-63AA-49CC-90C7-F8CD6D91766D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7FFBC9-63AA-49CC-90C7-F8CD6D91766D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7FFBC9-63AA-49CC-90C7-F8CD6D91766D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A049AE4-871A-4D58-9BCC-B540AB9CB63C}
+	EndGlobalSection
+EndGlobal
