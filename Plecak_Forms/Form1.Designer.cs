@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Run = new System.Windows.Forms.Button();
             this.tbSeed = new System.Windows.Forms.TextBox();
             this.tbLiczba = new System.Windows.Forms.TextBox();
@@ -37,6 +38,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.przedmioty_listBox = new System.Windows.Forms.ListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // Run
@@ -52,27 +56,34 @@
             // 
             // tbSeed
             // 
+            this.tbSeed.BackColor = System.Drawing.SystemColors.Info;
             this.tbSeed.Location = new System.Drawing.Point(59, 33);
             this.tbSeed.Margin = new System.Windows.Forms.Padding(4);
             this.tbSeed.Name = "tbSeed";
             this.tbSeed.Size = new System.Drawing.Size(132, 22);
             this.tbSeed.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.tbSeed, "wpisz seed!");
+            this.tbSeed.TextChanged += new System.EventHandler(this.tbSeed_TextChanged);
             // 
             // tbLiczba
             // 
+            this.tbLiczba.BackColor = System.Drawing.SystemColors.Info;
             this.tbLiczba.Location = new System.Drawing.Point(59, 91);
             this.tbLiczba.Margin = new System.Windows.Forms.Padding(4);
             this.tbLiczba.Name = "tbLiczba";
             this.tbLiczba.Size = new System.Drawing.Size(132, 22);
             this.tbLiczba.TabIndex = 2;
+            this.toolTip2.SetToolTip(this.tbLiczba, "wpisz liczbę przedmiotów, musi być liczba całkowita!");
             // 
             // tbPojemnosc
             // 
+            this.tbPojemnosc.BackColor = System.Drawing.SystemColors.Info;
             this.tbPojemnosc.Location = new System.Drawing.Point(59, 154);
             this.tbPojemnosc.Margin = new System.Windows.Forms.Padding(4);
             this.tbPojemnosc.Name = "tbPojemnosc";
             this.tbPojemnosc.Size = new System.Drawing.Size(132, 22);
             this.tbPojemnosc.TabIndex = 3;
+            this.toolTip3.SetToolTip(this.tbPojemnosc, "wpisz jaką pojemność ma mieć plecak!");
             // 
             // label1
             // 
@@ -83,7 +94,6 @@
             this.label1.Size = new System.Drawing.Size(38, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "seed";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -94,7 +104,6 @@
             this.label2.Size = new System.Drawing.Size(121, 16);
             this.label2.TabIndex = 7;
             this.label2.Text = "liczba przedmiotow";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -105,10 +114,10 @@
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 8;
             this.label3.Text = "pojemność";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // przedmioty_listBox
             // 
+            this.przedmioty_listBox.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.przedmioty_listBox.FormattingEnabled = true;
             this.przedmioty_listBox.ItemHeight = 16;
             this.przedmioty_listBox.Location = new System.Drawing.Point(353, 273);
@@ -118,6 +127,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(58, 273);
@@ -159,6 +169,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ListBox przedmioty_listBox;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
     }
 }
 
